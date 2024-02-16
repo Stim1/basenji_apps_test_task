@@ -1,0 +1,29 @@
+{
+  "name": "basenji_apps_test_task",
+  "version": "1.0.0",
+  "description": "A landing page with HTML, CSS, and JavaScript",
+  "main": "main.js",
+  "scripts": {
+    "start": "lite-server",
+    "build": "echo 'Add your build scripts here'",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "landing-page",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Nazar Hnatyuk",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "gh-pages": "2.0.0",
+    "stylelint": "^13.5.0"
+  }
+}
