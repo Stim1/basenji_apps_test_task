@@ -14,7 +14,7 @@
 }
 
 .app-info-section::after {
-  content: '';
+  content: "";
   width: 91%;
   height: 2px;
   background-color: #ccc;
@@ -84,7 +84,7 @@
 }
 
 .btn-get:hover {
-  background-color:var(--secondary-color);
+  background-color: var(--secondary-color);
   color: #007bff;
 }
 
@@ -180,7 +180,7 @@
   }
 
   .app-info-section::after {
-    content: '';
+    content: "";
     width: 97%;
     bottom: -20px;
   }
