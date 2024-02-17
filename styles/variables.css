@@ -1,0 +1,10 @@
+/* variables.css */
+
+:root {
+  --primary-color: gray;
+  --secondary-color: #c8c7c7;
+  --font-stack: "SF UI Display", sans-serif;
+  --font-bold: "SF UI Display Bold", sans-serif;
+  --font-semi-bold: "SF UI Display Semi-Bold", sans-serif;
+  --padding: 15px;
+}
