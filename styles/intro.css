@@ -1,0 +1,30 @@
+.additional-info {
+  display: none;
+}
+
+.additional-info.active {
+  display: block;
+}
+
+.intro-content {
+  margin: 0 10px 20px;
+}
+
+.intro-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.more-link {
+  margin-right: 30px;
+}
+
+.intro-text {
+  margin-left: 15px;
+}
+
+.developer-info {
+  margin-right: 15px;
+}
