@@ -8,6 +8,7 @@
     <title>Basenji Apps</title>
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/app-info.css" />
+    <link rel="stylesheet" href="./styles/preview.css" />
   </head>
   <!-- head section end -->
   <!-- body section start -->
@@ -72,9 +73,59 @@
       <!-- app info section end -->
 
       <!-- preview section start -->
-      <div class="preview-section">
-        <!-- Content of the preview section here -->
+      <h2 class="preview-title">Preview</h2>
+      <div class="preview-section-container">
+        <section class="preview-section">
+          <div class="preview-container">
+            <div class="preview-card">
+              <img
+                src="./images/brain-training.webp"
+                alt="Brain training at your fingertips"
+                class="preview-image"
+              />
+            </div>
+            <div class="preview-card">
+              <img
+                src="./images/check-your-vocab.webp"
+                alt="Check your vocab"
+                class="preview-image"
+              />
+            </div>
+            <div class="preview-card">
+              <img
+                src="./images/expand-your-mind.webp"
+                alt="Expand your mind capacity"
+                class="preview-image"
+              />
+            </div>
+            <div class="preview-card">
+              <img
+                src="./images/games-for-any-taste.webp"
+                alt="Games for any taste"
+                class="preview-image"
+              />
+            </div>
+            <div class="preview-card">
+              <img
+                src="./images/improve-your-stats.webp"
+                alt="Track & improve your stats"
+                class="preview-image"
+              />
+            </div>
+            <div class="preview-card">
+              <img
+                src="/images/test-your-focus.webp"
+                alt="Test your focus, math, and logic skills"
+                class="preview-image"
+              />
+            </div>
+          </div>
+          <div id="fullscreen-modal" class="fullscreen-modal">
+            <img id="fullscreen-image" src="" alt="Fullscreen view" />
+          </div>
+        </section>
       </div>
+
       <!-- preview section end -->
 
       <!-- intro section start -->
@@ -126,6 +177,7 @@
     </footer>
     <!-- update section End -->
     <script type="text/javascript" src="scripts/main.js"></script>
+    <script src="scripts/openModal.js"></script>
   </body>
   <!-- body section end -->
 </html>
