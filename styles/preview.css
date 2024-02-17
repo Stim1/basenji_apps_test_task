@@ -51,10 +51,11 @@
 }
 
 #fullscreen-image {
-border-radius: 60px;
+  border-radius: 60px;
 }
 
 .fullscreen-modal {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;

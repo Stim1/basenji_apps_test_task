@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/app-info.css" />
     <link rel="stylesheet" href="./styles/preview.css" />
+    <link rel="stylesheet" href="./styles/intro.css" />
   </head>
   <!-- head section end -->
   <!-- body section start -->
@@ -125,42 +126,68 @@
           </div>
         </section>
       </div>
-
       <!-- preview section end -->
 
       <!-- intro section start -->
       <div class="intro-section">
-        <h2 class="intro-title">
-          Looking to supercharge your thinking abilities?
-        </h2>
-        <a href="#" class="more-link">more</a>
-        <p class="developer-info">Basenji Apps Developer</p>
+        <div class="intro-button-container">
+          <p class="intro-text">
+            Looking to supercharge your thinking abilities?
+          </p>
+          <button class="more-link" onclick="toggleMoreInfo()">more</button>
+          <p class="developer-info">Basenji Apps <br />Developer</p>
+        </div>
+        <div class="additional-info">
+          <p class="intro-content">
+            Whiz: Brain Hacking is your go-to training app with 20+ games
+            designed to boost your logic and math skills, improve your
+            vocabulary, sharpen focus and memory, and speed up your reaction
+            time.
+          </p>
+          <p class="intro-content">
+            Perhaps you’ve noticed that you’ve been: <br />-struggling to stay
+            focused <br />- forgetting the names of people you know <br />-
+            ashamed of taking too long to calculate tips at the restaurant
+            <br />- feeling like the wheels in your head are getting rusty If
+            so, start playing our puzzle games a few minutes a day. <br />No
+            matter your age, building new neuron connections is vital to keep
+            your brain fit.<br />And our games can help you pave those
+            connections and boost your cognitive abilities!
+          </p>
+          <p class="intro-content">
+            Whiz is going to help you: <br />- unleash your brain capacity
+            <br />- enhance your focus and memory <br />- fire up your mental
+            math skills <br />- check your vocabulary and learn new words
+            Moreover, with our app, you’ll be able to identify your intelligence
+            type and IQ, as well as determine your brain age.<br />
+            So, go ahead! Select the game yourself or play the game of the day
+            that we’ve handpicked for you. Track your progress with level
+            statistics. Grow from level to level and gradually improve your
+            mental skills with us.
+          </p>
+          <p class="intro-content">
+            SUBSCRIPTION INFORMATION: 1 week for free, then $59.99/year.<br />Please
+            carefully read the information below:<br />- Subscription
+            automatically renews unless auto-renew is turned off at least
+            24-hours before the end of the current period.<br />Account will be
+            charged at the full price of the chosen subscription period. Account
+            will be charged for renewal within 24-hours prior to the end of the
+            current period.<br />- Any unused portion of a free trial period, if
+            offered, will be forfeited when the user purchases a subscription to
+            that publication.<br />
+            - Subscriptions may be managed by the user and auto-renewal may be
+            turned off by going to the user’s Account Settings after
+            purchase.<br />
+            Links to our policies:
+            <br />https://basenjiapps.com/docs/terms_of_use
+            <br />https://basenjiapps.com/docs/privacy_policy
+          </p>
+        </div>
       </div>
       <!-- intro section end -->
 
       <!-- ratings section start -->
       <div class="ratings-reviews-section">
-        <h2 class="rating-title">Ratings & Reviews</h2>
-        <div class="rating-summary">
-          <span class="rating-value">4.8</span>
-          <span class="rating-out-of">out of 5</span>
-          <span class="total-ratings">12.2K Ratings</span>
-        </div>
-        <div class="user-review">
-          <h3 class="user-review-title">This app is rad</h3>
-          <p class="review-content">
-            I love the word puzzles! I'm hoping they will add some more of
-            those... Great app!
-          </p>
-          <div class="review-metadata">
-            <span class="review-date">06/12/2023</span>
-            <span class="review-author">Ayla Kirby</span>
-          </div>
-
-          <div class="developer-response">
-            <p>Thank you! We are pleased to know that 😊 Enjoy!</p>
-          </div>
-        </div>
       </div>
       <!-- ratings section end -->
     </main>
@@ -178,6 +205,7 @@
     <!-- update section End -->
     <script type="text/javascript" src="scripts/main.js"></script>
     <script src="scripts/openModal.js"></script>
+    <script src="scripts/toggleMoreInfo.js"></script>
   </body>
   <!-- body section end -->
 </html>
