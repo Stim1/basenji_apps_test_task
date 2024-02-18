@@ -3,9 +3,20 @@
   font-family: var(--font-stack);
   overflow-x: auto;
   padding: 5px;
+  margin-bottom: 50px;
   -ms-overflow-style: none;
   scrollbar-width: none;
   overflow-x: auto;
+}
+
+.comments-container::after {
+  content: "";
+  width: 94%;
+  height: 2px;
+  background-color: var(--secondary-color);
+  position: absolute;
+  left: 2%;
+  bottom: -36%;
 }
 
 .comment {
@@ -132,6 +143,12 @@
 }
 
 @media screen and (min-width: 992px) {
+  .comments-container::after {
+    width: 98%;
+    left: 1%;
+    bottom: -53%;
+  }
+
   .modal-content {
     margin: 20% auto;
   }

@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   btns.forEach(function (btn) {
     btn.onclick = function () {
-      const fullCommentHtml = this.closest('.comment').innerHTML;
+      const fullCommentHtml = this.closest(".comment").innerHTML;
       modalContent.innerHTML = fullCommentHtml;
       modal.style.display = "block";
 
