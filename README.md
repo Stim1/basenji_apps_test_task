@@ -2,6 +2,7 @@
 
 ## Usage
 To view this site, go to the link on [GitHub Pages](https://stim1.github.io/basenji_apps_test_task/).
+Or you can download this code on your device, and open it through ```live server```.
 
 ## Technologies
 The following technologies were used to create this landing page:
