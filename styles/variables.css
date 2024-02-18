@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: gray;
+  --primary-link-color: blue;
   --secondary-color: #c8c7c7;
   --font-stack: "SF UI Display", sans-serif;
   --font-bold: "SF UI Display Bold", sans-serif;
