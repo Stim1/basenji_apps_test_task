@@ -30,7 +30,7 @@
             href="https://apps.apple.com/us/app/whiz-brain-hacking-games/id6446400004?mt=8"
             class="button-link"
           >
-            <button class="btn-get">GET</button>
+            <button class="btn-get" id="button-get-header">GET</button>
           </a>
         </div>
       </div>
@@ -53,7 +53,7 @@
                   href="https://apps.apple.com/us/app/whiz-brain-hacking-games/id6446400004?mt=8"
                   class="button-link"
                 >
-                  <button class="btn-get">GET</button>
+                  <button class="btn-get" id="button-get">GET</button>
                 </a>
                 <span class="in-app-purchases">In-App<br />Purchases</span>
               </div>
@@ -150,7 +150,7 @@
           <p class="intro-text">
             Looking to supercharge your thinking abilities?
           </p>
-          <button class="more-link" onclick="toggleMoreInfo()">more</button>
+          <button class="more-link" id="more-link-intro-section" onclick="toggleMoreInfo()">more</button>
           <div class="developer-info-container">
             <p class="developer-info">Basenji Apps</p>
             <p class="developer-text">Developer</p>
@@ -297,7 +297,7 @@
               replacement. I stumbled upon Whiz through some ad and well, now,
               at least my brain is working while I’m killing time! Great app!
             </p>
-            <button class="full-comment-btn">more</button>
+            <button class="full-comment-btn" id="full-comment-btn">more</button>
           </div>
           <div class="developer-response-content">
             <p class="developer-response">Developer Response</p>
@@ -325,7 +325,7 @@
               to read during my commute to work, but sometimes can’t concentrate
               so Whiz comes in handy. Waiting for more math games!
             </p>
-            <button class="full-comment-btn">more</button>
+            <button class="full-comment-btn" id="full-comment-btn">more</button>
           </div>
           <div class="developer-response-content">
             <p class="developer-response">Developer Response</p>
@@ -354,7 +354,7 @@
               myself a coffee and sit down for a quick game of chess. Sets me up
               for the day. Recommend it.
             </p>
-            <button class="full-comment-btn">more</button>
+            <button class="full-comment-btn" id="full-comment-btn">more</button>
           </div>
           <div class="developer-response-content">
             <p class="developer-response">Developer Response</p>
@@ -381,7 +381,7 @@
               word games. I usually play after my work calls to relax and
               regroup myself. A nice way to put my mind off work.
             </p>
-            <button class="full-comment-btn">more</button>
+            <button class="full-comment-btn" id="full-comment-btn">more</button>
           </div>
           <div class="developer-response-content">
             <p class="developer-response">Developer Response</p>
@@ -417,6 +417,7 @@
     <script src="scripts/toggleMoreInfo.js"></script>
     <script src="scripts/openModalComment.js"></script>
     <script src="scripts/scrollHeader.js"></script>
+    <script src="scripts/logEvents.js"></script>
   </body>
   <!-- body section end -->
 </html>
