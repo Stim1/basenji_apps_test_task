@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function checkScroll() {
     const secondBlockOffset =
       secondBlock.getBoundingClientRect().top + window.pageYOffset;
-    const headerHeight = stickyHeader.offsetHeight; // Висота хедера, якщо потрібно
+    const headerHeight = stickyHeader.offsetHeight;
 
     if (window.pageYOffset > secondBlockOffset - headerHeight) {
       stickyHeader.classList.add("active");
@@ -14,9 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // Перевіряємо прокрутку при завантаженні сторінки
   checkScroll();
 
-  // Встановлюємо обробник події на прокрутку
   window.addEventListener("scroll", checkScroll);
 });
