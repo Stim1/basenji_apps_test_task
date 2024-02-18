@@ -13,13 +13,25 @@
     <link rel="stylesheet" href="./styles/intro.css" />
     <link rel="stylesheet" href="./styles/rating.css" />
     <link rel="stylesheet" href="./styles/comments.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
   </head>
   <!-- head section end -->
   <!-- body section start -->
   <body>
     <!-- header section start -->
-    <header class="header">
-      <nav></nav>
+    <header id="stickyHeader" class="header">
+      <div class="header-container">
+        <img src="./images/logo-small.svg" alt="Logo" class="header-logo" />
+        <div class="btn-text">
+          <span class="in-app-purchases">In-App<br />Purchases</span>
+          <a
+            href="https://apps.apple.com/us/app/whiz-brain-hacking-games/id6446400004?mt=8"
+            class="button-link"
+          >
+            <button class="btn-get">GET</button>
+          </a>
+        </div>
+      </div>
     </header>
     <!-- header section end -->
     <!-- main section start -->
@@ -75,9 +87,8 @@
         </div>
       </section>
       <!-- app info section end -->
-
       <!-- preview section start -->
-      <h2 class="preview-title">Preview</h2>
+      <h2 class="preview-title" id="secondBlock">Preview</h2>
       <div class="preview-section-container">
         <section class="preview-section">
           <div class="preview-container">
@@ -132,7 +143,7 @@
       <!-- preview section end -->
 
       <!-- intro section start -->
-      <div class="intro-section">
+      <section class="intro-section">
         <div class="intro-button-container">
           <p class="intro-text">
             Looking to supercharge your thinking abilities?
@@ -200,7 +211,7 @@
             class="arrow-icon"
           />
         </div>
-      </div>
+      </section>
       <!-- intro section end -->
 
       <!-- ratings section start -->
@@ -268,18 +279,18 @@
           <div class="content-button">
             <p class="comment-content">
               I love the word puzzles! I’m hoping they will add some more of
-              those. Guess What - oh my goodness, that game is one heck of a brain
-              racker. But I’m able to guess the word usually from 4th or 5th
-              attempt. And, I do appreciate math games, they make me remember how
-              to count without a calculator. I often arrive early at my daughter’s
-              school to pick her up from softball practice, so I have to kill some
-              time before she gets off. I used to scroll TikTok, but that was just
-              cluttering my mind, so I looked for a replacement. I stumbled upon
-              Whiz through some ad and well, now, at least my brain is working
-              while I’m killing time! Great app!
+              those. Guess What - oh my goodness, that game is one heck of a
+              brain racker. But I’m able to guess the word usually from 4th or
+              5th attempt. And, I do appreciate math games, they make me
+              remember how to count without a calculator. I often arrive early
+              at my daughter’s school to pick her up from softball practice, so
+              I have to kill some time before she gets off. I used to scroll
+              TikTok, but that was just cluttering my mind, so I looked for a
+              replacement. I stumbled upon Whiz through some ad and well, now,
+              at least my brain is working while I’m killing time! Great app!
             </p>
             <button class="full-comment-btn">more</button>
-            </div>
+          </div>
           <div class="developer-response-content">
             <p class="developer-response">Developer Response</p>
             <p class="developer-content">
@@ -302,12 +313,12 @@
           <div class="content-button">
             <p class="comment-content">
               Tons of games, and I like that it remembers which ones I’ve played
-              and stores them in the Timeline so I can go back and play. I like to
-              read during my commute to work, but sometimes can’t concentrate so
-              Whiz comes in handy. Waiting for more math games!
+              and stores them in the Timeline so I can go back and play. I like
+              to read during my commute to work, but sometimes can’t concentrate
+              so Whiz comes in handy. Waiting for more math games!
             </p>
             <button class="full-comment-btn">more</button>
-            </div>
+          </div>
           <div class="developer-response-content">
             <p class="developer-response">Developer Response</p>
             <p class="developer-content">
@@ -336,7 +347,7 @@
               for the day. Recommend it.
             </p>
             <button class="full-comment-btn">more</button>
-            </div>
+          </div>
           <div class="developer-response-content">
             <p class="developer-response">Developer Response</p>
             <p class="developer-content">Hey! Thank you for your feedback ❤️</p>
@@ -358,9 +369,9 @@
             <p class="comment-content">
               After uploading the app I tried the free game of the day which was
               Block Buster. I got sucked in! Had to buy the paid version to play
-              it as often as I can. Then there was the Sliding Puzzle and the word
-              games. I usually play after my work calls to relax and regroup
-              myself. A nice way to put my mind off work.
+              it as often as I can. Then there was the Sliding Puzzle and the
+              word games. I usually play after my work calls to relax and
+              regroup myself. A nice way to put my mind off work.
             </p>
             <button class="full-comment-btn">more</button>
           </div>
@@ -394,6 +405,7 @@
     <script src="scripts/openModal.js"></script>
     <script src="scripts/toggleMoreInfo.js"></script>
     <script src="scripts/openModalComment.js"></script>
+    <script src="scripts/scrollHeader.js"></script>
   </body>
   <!-- body section end -->
 </html>
