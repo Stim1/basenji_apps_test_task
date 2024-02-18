@@ -1,0 +1,55 @@
+/* update.css */
+
+.update-section {
+  font-family: var(--font-stack);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  height: 70px;
+
+}
+
+.update-version-desktop {
+  display: none;
+}
+
+.update-title-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.update-title {
+  font-family: var(--font-bold);
+  font-size: 18px;
+}
+
+.update-content {
+  font-size: 11px;
+}
+
+.update-version {
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+@media screen and (min-width: 992px) {
+  .update-section {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .update-version {
+    display: none;
+  }
+
+  .update-version-desktop {
+    display: flex;
+    font-size: 14px;
+    color: var(--secondary-color);
+  }
+}
