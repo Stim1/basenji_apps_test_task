@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles/preview.css" />
     <link rel="stylesheet" href="./styles/intro.css" />
     <link rel="stylesheet" href="./styles/rating.css" />
+    <link rel="stylesheet" href="./styles/comments.css" />
   </head>
   <!-- head section end -->
   <!-- body section start -->
@@ -117,7 +118,7 @@
             </div>
             <div class="preview-card">
               <img
-                src="/images/test-your-focus.webp"
+                src="./images/test-your-focus.webp"
                 alt="Test your focus, math, and logic skills"
                 class="preview-image"
               />
@@ -251,9 +252,134 @@
         </div>
       </section>
       <!-- ratings section end -->
+      <!-- comments section start -->
+      <div class="comments-container">
+        <div class="comment">
+          <div class="rating-date-author">
+            <div class="title-rating">
+              <h3 class="comment-title">This app is rad</h3>
+              <p class="rating">★★★★★</p>
+            </div>
+            <div class="author-date">
+              <span class="date">06/12/2023</span>
+              <h4 class="comment-author">Ayla Kirby</h4>
+            </div>
+          </div>
+          <div class="content-button">
+            <p class="comment-content">
+              I love the word puzzles! I’m hoping they will add some more of
+              those. Guess What - oh my goodness, that game is one heck of a brain
+              racker. But I’m able to guess the word usually from 4th or 5th
+              attempt. And, I do appreciate math games, they make me remember how
+              to count without a calculator. I often arrive early at my daughter’s
+              school to pick her up from softball practice, so I have to kill some
+              time before she gets off. I used to scroll TikTok, but that was just
+              cluttering my mind, so I looked for a replacement. I stumbled upon
+              Whiz through some ad and well, now, at least my brain is working
+              while I’m killing time! Great app!
+            </p>
+            <button class="full-comment-btn">more</button>
+            </div>
+          <div class="developer-response-content">
+            <p class="developer-response">Developer Response</p>
+            <p class="developer-content">
+              Thank you! We are pleased to know that 😊 Enjoy!
+            </p>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="rating-date-author">
+            <div class="title-rating">
+              <h3 class="comment-title">A decent app</h3>
+              <p class="rating">★★★★☆</p>
+            </div>
+            <div class="author-date">
+              <span class="date">06/12/2023</span>
+              <h4 class="comment-author">Carreraedward</h4>
+            </div>
+          </div>
+          <div class="content-button">
+            <p class="comment-content">
+              Tons of games, and I like that it remembers which ones I’ve played
+              and stores them in the Timeline so I can go back and play. I like to
+              read during my commute to work, but sometimes can’t concentrate so
+              Whiz comes in handy. Waiting for more math games!
+            </p>
+            <button class="full-comment-btn">more</button>
+            </div>
+          <div class="developer-response-content">
+            <p class="developer-response">Developer Response</p>
+            <p class="developer-content">
+              Thank you! We are pleased to know that 😊 Enjoy!
+            </p>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="rating-date-author">
+            <div class="title-rating">
+              <h3 class="comment-title">Love it</h3>
+              <p class="rating">★★★★☆</p>
+            </div>
+            <div class="author-date">
+              <span class="date">06/12/2023</span>
+              <h4 class="comment-author">Sanaa Abubaker</h4>
+            </div>
+          </div>
+          <div class="content-button">
+            <p class="comment-content">
+              Nice app! I can play good old games like Chess and Minesweeper,
+              Sudoku and Jigsaw puzzles. And I love the variation of Tetris -
+              Block Buster. These games are a neat warm-up before work. I make
+              myself a coffee and sit down for a quick game of chess. Sets me up
+              for the day. Recommend it.
+            </p>
+            <button class="full-comment-btn">more</button>
+            </div>
+          <div class="developer-response-content">
+            <p class="developer-response">Developer Response</p>
+            <p class="developer-content">Hey! Thank you for your feedback ❤️</p>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="rating-date-author">
+            <div class="title-rating">
+              <h3 class="comment-title">This app is rad</h3>
+              <p class="rating">★★★☆☆</p>
+            </div>
+            <div class="author-date">
+              <span class="date">06/12/2023</span>
+              <h4 class="comment-author">Anya Simuzi</h4>
+            </div>
+          </div>
+          <div class="content-button">
+            <p class="comment-content">
+              After uploading the app I tried the free game of the day which was
+              Block Buster. I got sucked in! Had to buy the paid version to play
+              it as often as I can. Then there was the Sliding Puzzle and the word
+              games. I usually play after my work calls to relax and regroup
+              myself. A nice way to put my mind off work.
+            </p>
+            <button class="full-comment-btn">more</button>
+          </div>
+          <div class="developer-response-content">
+            <p class="developer-response">Developer Response</p>
+            <p class="developer-content">Great to hear! Thank you so much!</p>
+          </div>
+        </div>
+
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p class="full-comment"></p>
+          </div>
+        </div>
+      </div>
+      <!-- comments section end -->
     </main>
     <!-- main section end -->
-
     <!-- update section Start -->
     <footer class="update-section">
       <h2 class="update-title">What's New</h2>
@@ -267,6 +393,7 @@
     <script type="text/javascript" src="scripts/main.js"></script>
     <script src="scripts/openModal.js"></script>
     <script src="scripts/toggleMoreInfo.js"></script>
+    <script src="scripts/openModalComment.js"></script>
   </body>
   <!-- body section end -->
 </html>
