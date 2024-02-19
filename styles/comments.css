@@ -4,25 +4,17 @@
   overflow-x: auto;
   padding: 5px;
   margin-bottom: 50px;
+  box-shadow: 0 2px 2px -2px #ccc;
   -ms-overflow-style: none;
   scrollbar-width: none;
   overflow-x: auto;
-}
-
-.comments-container::after {
-  content: "";
-  width: 94%;
-  height: 2px;
-  background-color: var(--secondary-color);
-  position: absolute;
-  left: 2%;
-  bottom: -36%;
 }
 
 .comment {
   max-width: 1800px;
   width: 360px;
   padding: 14px 20px;
+  margin-bottom: 15px;
   border-radius: 10px;
   background-color: #f2f1f1;
   margin-right: 10px;
@@ -142,12 +134,6 @@
 }
 
 @media screen and (min-width: 992px) {
-  .comments-container::after {
-    width: 98%;
-    left: 1%;
-    bottom: -53%;
-  }
-
   .modal-content {
     margin: 20% auto;
   }
