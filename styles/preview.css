@@ -4,16 +4,7 @@
 
 .preview-section-container {
   position: relative;
-}
-
-.preview-section-container::after {
-  content: "";
-  width: 91%;
-  height: 2px;
-  background-color: var(--secondary-color);
-  position: absolute;
-  left: 4%;
-  bottom: 0;
+  box-shadow: 0 4px 2px -4px #ccc;
 }
 
 .preview-section {
@@ -74,12 +65,6 @@
 }
 
 @media screen and (min-width: 992px) {
-  .preview-section-container::after {
-    width: 97%;
-    left: 1.5%;
-    bottom: -5%;
-  }
-
   .preview-section {
     margin-bottom: 50px;
   }
